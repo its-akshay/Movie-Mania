@@ -31,10 +31,7 @@ function Banner() {
 
                     </h1>
 
-                    {/* <div className='buttons'>
-                        for future button
-                        
-                    </div> */}
+
                     <h1 className='bannerDescription'>
                         {(movie?.overview)}
                     </h1>

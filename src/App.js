@@ -3,12 +3,14 @@ import Banner from './components/Banner';
 import Navbar from './components/Navbar';
 import Row from './components/Row';
 import requests from './request';
-
+import SearchBar from './components/SearchBar';
 function App() {
   return (
     <div className="App">
+      
       <Navbar />
       <Banner />
+      <SearchBar />
       {/* <h1 style={{color: 'white'}}>Movie-Mania</h1> */}
       <Row title = "Originals" fetchUrl={requests.fetchOriginals} />
       <Row title = "Trending" fetchUrl={requests.fetchTrending} />
